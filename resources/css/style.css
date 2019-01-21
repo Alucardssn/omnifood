@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.row {
+    max-width: 1240px;
+    margin: 0 auto;    
+}
+
+/*----section row design---*/
+
+
+
+.col.ion-chevron-left {
+    display: inline-block;
+    width: 20%;
+    float:left;  
+    position: relative;
+  
+}
+
+.col.ion-chevron-right {
+    display: inline-block;
+    width: 20%;
+    float:right;  
+    position: relative;
+    z-index: 0;
+}
+
+/*-------------------------*/
+
+h1, h2, h3 {
+   
+    font-weight: 300;
+    color: inherit;
+    text-transform: uppercase;  
+}
+
+h1 {
+    margin: 0 0 25px 0;
+    word-spacing: 5px;
+    font-size: 240%;
+    letter-spacing: 2px;
+}
+
+
+h2 {
+    margin: 30px auto;
+    font-size: 180%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin: 30px auto;
+    background-color: #cf6d17;
+    content:"  ";
+    background-position: center;   
+}
+
+h3: {
+    font-size: 110%;
+}
+
+.box p {
+    
+    line-height: 140%;
+    font-size: 80%;
+}
+
+
+/*--------------------------------------------------------------------*/
+/*---------icons-------*/
+/*--------------------------------------------------------------------*/
+
+.icon-big {
+    font-size: 330%;
+    display: block;  /*block elements forces a line break*/
+    color: #eb9950;
+    text-align: center;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/*---------buttons-------*/
+/*--------------------------------------------------------------------*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 60px;
+    font-weight: 350;
+    text-decoration: none;
+    transition: background-color 500ms;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #eb9950;
+    border: 1px solid #eb9950;
+    color: #fff;
+    
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #eb9950;
+    color: #fff;
+    
+}
+
+.btn:active,
+.btn:hover {
+    background-color: #cf6d17;
+}
+
+.btn-full:active,
+.btn-full:hover {
+    border: 3px solid #cf6d17;  
+}
+
+.btn-ghost:active,
+.btn-ghost:hover {
+    border: 3px solid #cf6d17;   
+}
+
+
+/*--------------------------------------------------------------------*/
+/*---------Header--------*/
+/*--------------------------------------------------------------------*/
+
+header {
+    background-image:linear-gradient(rgba(51, 51, 51, 0.67), rgba(68, 68, 68, 0.68)), url(img/hero.jpg);
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.hero-text-box {
+    position: absolute;
+    width: 1440px;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+/*--------------------------------------------------------------------*/
+/*---------Reusable mains--------*/
+/*--------------------------------------------------------------------*/
+
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: 20px;
+}
+
+.main-menu-nav {
+    float: right;
+    list-style: none;
+   
+}
+
+.main-menu-nav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.main-menu-nav li a:link,
+.main-menu-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+/*.main-menu-nav li a:hover,
+.main-menu-nav li a:active {
+    color: #fff;
+    padding: 8px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid #cf6d17;
+   transition: border-bottom 2s;
+
+}*/
+
+/** for the sake of demo  **/
+.main-menu-nav li a:hover,
+.main-menu-nav li a:active {
+   
+    color: #fff;
+    padding: 0px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-radius: 120px;
+    background-color: #cf6d17;
+    
+    
+}
+
+.longtext-copy {
+    /* rules of typography */
+    line-height: 145%;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.box {
+    padding: 0.5%;
+    
+}
+
+
+/*Section-features*/
+
+.section-features .longtext-copy {
+margin-bottom: 30px;
+
+}
+
+/*----MEAL IMAGES SECTION-------*/
+
+
+.section-meals {
+    padding-top: 30px;
+}
+
+.meal-row {
+    width: 100%;
+    list-style: none;
+}
+
+.meal-row li {
+    display: block;
+    width: 25%;
+    float:left;
+}
+
+.meal-img {
+    width: 100%;
+    margin: 0;  /* even though the main declaration for margin has margin:0 the normalize.css inclusion is introducing some margin hence margin:0 here */
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-img img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.2s opacity 0.5s;
+}
+
+.meal-img img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+

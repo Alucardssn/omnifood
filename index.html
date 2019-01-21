@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel=stylesheet type="text/css" href="vendors/css/normalize.css">
+        <link rel=stylesheet type="text/css" href="vendors/css/grid.css">
+        <link rel=stylesheet type="text/css" href="resources/css/style.css">
+        <link rel=stylesheet type="text/css" href="vendors/css/ionicons.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title> OMNI FOOD </title>
+    </head>
+    <body>
+       <header> 
+            <nav> 
+                <div  class="row">
+                    <img class="logo" src="resources/img/logo-white.png" alt="omnifood logo">
+                    <ul class="main-menu-nav" id="best">
+                        <li class="liItem"><a href="#1">Food delivery</a></li>
+                        <li class="liItem"><a href="#2">How it works</a></li>  
+                        <li class="liItem"><a href="#3">Our cities</a></li>  
+                        <li class="liItem"><a href="#4">Sign-up</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+            <div class="hero-text-box"> 
+            <h1> Good Bye Junk! <br> Welcome Super Healthy Meal</h1>
+            <a class="btn btn-full" href="#"> I'm Hungry </a>
+            <a class="btn btn-ghost" href="#"> Show me more </a>
+            </div>
+         </header>
+            <section class="section-features"> 
+                <div class="row"> 
+                <h2> Get food fast &mdash; not fast food </h2>
+                <p class="longtext-copy"> Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>   
+                </div>
+                
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                
+                <div class="row"> 
+                    
+                     <div class="col chevleft span-1-of-6 box"> 
+                         <a class="ion-chevron-left icon-big" href="#"> </a>
+                    </div>
+                    
+                    <div class="col span-1-of-6 box" jk="awesome1"> 
+                        <a class="ion-ios-infinite-outline icon-big"> </a>
+                        <h3>Up to 365 days/year</h3>
+                        <p class="col-text">Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+                    </div>  
+                  
+                    <div class="col span-1-of-6 box" jk="awesome2"> 
+                        <a class="ion-ios-stopwatch-outline icon-big"> </a>
+                        <h3>Ready in 20 minutes</h3>
+                        <p class="col-text">You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+                    </div> 
+                    
+                    <div class="col span-1-of-6 box" jk="awesome3"> 
+                        <a class="ion-ios-nutrition icon-big"> </a>
+                        <h3>100% organic</h3>
+                        <p class="col-text">All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+                    </div> 
+                    
+                    <div class="col span-1-of-6 box" jk="awesome4"> 
+                        <a class="ion-bag icon-big icon-big"> </a> 
+                        <h3>Order anything</h3>
+                        <p class="col-text">We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+                    </div>
+                    
+                     <div class="col chevright span-1-of-6 box"> 
+                         <a class="ion-chevron-right icon-big" href="#"> </a>
+                    </div>
+
+                </div>  
+                
+            </section>
+        
+            <section class="section-meals">
+                
+                <ul class="meal-row">
+                    <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+                        </figure>
+                    </li>
+                     <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+                        </figure>
+                    </li>
+                     <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
+                        </figure>
+                    </li>
+                     <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
+                        </figure>
+                    </li>
+                     
+                </ul>
+                
+                <ul class="meal-row">
+                    <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/5.jpg" alt="Korean bibimbap with egg and vegetables">
+                        </figure>
+                    </li>
+                     <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/6.jpg" alt="Simple italian pizza with cherry tomatoes">
+                        </figure>
+                    </li>
+                     <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/7.jpg" alt="Chicken breast steak with vegetables">
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="meal-img">
+                            <img src="resources/img/7.jpg" alt="Chicken breast steak with vegetables">
+                        </figure>
+                    </li>
+                </ul>
+                
+        </section>
+   
+        <!--      <script>
+
+            var topmenulist = document.getElementsByClassName('liItem')
+            console.dir(topmenulist);
+            
+            var featurenodes = document.getElementsByTagName('h3');
+            console.dir(featurenodes); 
+            
+            topmenulist[0].onclick = function() { 
+                featurenodes[0].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[1].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+             topmenulist[1].onclick = function() { 
+                featurenodes[1].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+             topmenulist[2].onclick = function() { 
+                featurenodes[2].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+             topmenulist[3].onclick = function() { 
+                featurenodes[3].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+            
+	        for(aindex=0; aindex<topmenulist.length; aindex++) {
+               topmenulist[aindex].onmouseout = function() { 
+                   this.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            }
+        
+        </script> -->
+        <!-- <script> 
+            var topmenulist = document.getElementsByClassName('liItem')
+            console.dir(topmenulist);
+            
+            var featurenodes = document.querySelectorAll("div.col > p.col-text");
+            console.dir(featurenodes[0].parentElement); 
+            
+            topmenulist[0].onclick = function() { 
+                featurenodes[0].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[1].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+             topmenulist[1].onclick = function() { 
+                featurenodes[1].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+             topmenulist[2].onclick = function() { 
+                featurenodes[2].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+             topmenulist[3].onclick = function() { 
+                featurenodes[3].parentElement.style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].parentElement.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            
+            
+	        for(aindex=0; aindex<topmenulist.length; aindex++) {
+               topmenulist[aindex].onmouseout = function() { 
+                   this.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            }
+        </script>-->
+        <!-- <script>
+        
+            var topmenulist = document.getElementsByClassName('liItem')
+            console.dir(topmenulist);
+            
+            var featurenodes = document.querySelectorAll("div.row > div.col");
+            console.dir(featurenodes); 
+            
+            topmenulist[0].onclick = function() { 
+                featurenodes[0].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[1].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].style.backgroundColor = "rgba(0,0,0,0)";
+                }
+             topmenulist[1].onclick = function() { 
+                featurenodes[1].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].style.backgroundColor = "rgba(0,0,0,0)";
+                }
+             topmenulist[2].onclick = function() { 
+                featurenodes[2].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].style.backgroundColor = "rgba(0,0,0,0)";
+                }
+             topmenulist[3].onclick = function() { 
+                featurenodes[3].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].style.backgroundColor = "rgba(0,0,0,0)";
+                }     
+	        for(aindex=0; aindex<topmenulist.length; aindex++) {
+               topmenulist[aindex].onmouseout = function() { 
+                   this.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            }
+        
+        </script>--> 
+         <script>
+            var topmenulist = document.getElementsByClassName('liItem')
+            console.dir(topmenulist);
+            var featurenodes = document.querySelectorAll("div[jk*='awesome']");
+          
+            console.dir(featurenodes); 
+            
+            topmenulist[0].onclick = function() { 
+                featurenodes[0].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[1].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].style.backgroundColor = "rgba(0,0,0,0)";
+                }
+             topmenulist[1].onclick = function() { 
+                featurenodes[1].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].style.backgroundColor = "rgba(0,0,0,0)";
+                }
+             topmenulist[2].onclick = function() { 
+                featurenodes[2].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[3].style.backgroundColor = "rgba(0,0,0,0)";
+                }
+             topmenulist[3].onclick = function() { 
+                featurenodes[3].style.backgroundColor = "rgb(86, 144, 212)";
+                featurenodes[0].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[1].style.backgroundColor = "rgba(0,0,0,0)";
+                featurenodes[2].style.backgroundColor = "rgba(0,0,0,0)";
+                }     
+	        for(aindex=0; aindex<topmenulist.length; aindex++) {
+               topmenulist[aindex].onmouseout = function() { 
+                   this.style.backgroundColor = "rgba(0,0,0,0)";
+                }
+            }
+            
+        </script>
+        
+        <script>
+        
+                var parentNode = document.getElementsByClassName('section-features')[0].querySelectorAll("div.row")[1];
+                console.log(parentNode);
+            
+                var leftchevron = parentNode.children[0];
+                console.log(leftchevron);
+                
+                var rightchevron = parentNode.children[5];
+                console.log(rightchevron);
+            
+                leftchevron.onclick = function() { 
+                var firstchild = parentNode.children[1];              
+                parentNode.removeChild(firstchild);
+                console.log(parentNode.children[1]);
+                parentNode.insertBefore(firstchild, rightchevron); 
+                    
+                //var secondchild = document.getElementsByClassName('section-features')[0].querySelectorAll("div.row")[1].children[2];
+                //var thirdchild = document.getElementsByClassName('section-features')[0].querySelectorAll("div.row")[1].children[3];
+                //var fourthchild = document.getElementsByClassName('section-features')[0].querySelectorAll("div.row")[1].children[4]; 
+                }
+                
+                rightchevron.onclick = function() {    
+                var firstchild = parentNode.children[1];
+                var fourthchild = parentNode.children[4];   
+                parentNode.removeChild(fourthchild);
+                console.log(parentNode.children[4]);
+                parentNode.insertBefore(fourthchild, firstchild);
+        
+                //var secondchild = document.getElementsByClassName('section-features')[0].querySelectorAll("div.row")[1].children[2];
+                //var thirdchild = document.getElementsByClassName('section-features')[0].querySelectorAll("div.row")[1].children[3];
+                
+                }
+            
+        </script>
+        
+    </body>
+</html>
